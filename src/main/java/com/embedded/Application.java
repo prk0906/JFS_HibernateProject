@@ -7,7 +7,7 @@ import com.entity.Car;
 import com.entity.CarId;
 import com.util.HibernateUtil;
 
-public class Application {
+public class Application { 
 	public static void main(String[] args) {
 		SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
 		Session session = sessionFactory.openSession();

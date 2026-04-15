@@ -11,12 +11,12 @@ public class OrderOperations {
 		SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
 		Session session = sessionFactory.openSession();
 		
-		session.beginTransaction();
-		Order order = new Order(4, 12, 21000);
-		
-		session.persist(order);
-		session.getTransaction().commit();
-		session.close();
+//		session.beginTransaction();
+//		Order order = new Order(4, 12, 21000);
+//		
+//		session.persist(order);
+//		session.getTransaction().commit();
+//		session.close();
 	}
 
 }
